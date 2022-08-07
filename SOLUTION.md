@@ -15,9 +15,12 @@ We are trying to stop the pool from offering flash loans...
  ![s1](pictures/s1.png) 
 
 
-**2. Here reciver triggers flashloan**
-`![s2](pictures/s2.png) 
+**2. Here is the flashloan funtion**
+  ![s2](pictures/s2.png) 
 
 
-3️ `Get from Carbon ➡️ [Carbon](https://carbon.now.sh/) `
+**3. The break point is in line 8**
+  ![s3](pictures/s3.png) 
 
+The contracts check if that **poolBalance** equal to **balanceBefore**
+![s4](pictures/s4.png) 
