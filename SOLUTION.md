@@ -12,7 +12,8 @@ We are trying to stop the pool from offering flash loans...
 
 0️ 1️ 2️ 3️ 4️ 5️ 6️ 7️ 8️ 9️
 
- 1️ ![s1](solution1.png) 
+1️
+ ![s1](pictures/s1.png) 
 
 
 2️ `Get from Carbon ➡️ [Carbon](https://carbon.now.sh/) `
