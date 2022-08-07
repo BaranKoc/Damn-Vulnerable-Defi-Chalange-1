@@ -1,4 +1,6 @@
-<img align="center" alt="Cover" width="400" src="https://cdn.dribbble.com/users/1787323/screenshots/10091971/media/d43c019bfeff34be8816481e843ea8c1.png?compress=1&resize=400x300&vertical=top">
+<p align="center">
+  <img alt="Cover" width="200" src="cover.png" />
+</p>
 
 # DAMN VULNERABLE DEFI - Chalange #x
 
