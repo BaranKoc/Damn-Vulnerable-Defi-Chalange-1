@@ -10,13 +10,13 @@ We are trying to stop the pool from offering flash loans...
 
 ## Solution 
 
-0️ 1️ 2️ 3️ 4️ 5️ 6️ 7️ 8️ 9️
 
-1️
+**1. Here reciver triggers flashloan**
  ![s1](pictures/s1.png) 
 
 
-2️ `Get from Carbon ➡️ [Carbon](https://carbon.now.sh/) `
+**2. Here reciver triggers flashloan**
+`![s2](pictures/s2.png) 
 
 
 3️ `Get from Carbon ➡️ [Carbon](https://carbon.now.sh/) `
