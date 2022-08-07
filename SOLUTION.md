@@ -21,6 +21,10 @@ We are trying to stop the pool from offering flash loans...
 
 **3. The break point is in line 8**
   ![s3](pictures/s3.png) 
+  ![s4](pictures/s4.png) 
 
-The contracts check if that **poolBalance** equal to **balanceBefore**
-![s4](pictures/s4.png) 
+
+The contracts check if that **poolBalance** equal to **balanceBefore** but we can change the value of **poolBalance** with sending DVT to **UnstoppableLender.sol** and assertetion is going to fail.
+
+⚠️ **Insted of use `assert(poolBalance == balanceBefore);`** 
+**They shoud use `assert(poolBalance => balanceBefore);`**  
