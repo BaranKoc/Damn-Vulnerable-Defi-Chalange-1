@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Cover" width="200" src="cover.png" />
+  <img alt="Cover" width="200" height="200" src="cover.png" />
 </p>
 
 # DAMN VULNERABLE DEFI - Chalange #x
