@@ -1,6 +1,6 @@
 ## What are the smart contracts 
 - **UnstoppableLender.sol ---> smart contract for give flashloans** 
-- **ReceiverUnstoppable.sol ---> recivers smart contract for execute FlashLoan** 
+- **ReceiverUnstoppable.sol ---> receivers smart contract for execute FlashLoan** 
 - **DamnValuableToken.sol ---> just an ERC20 Token** 
 
 
@@ -10,12 +10,11 @@ We are trying to stop the pool from offering flash loans...
 
 ## Solution 
 
-
-**1. Here reciver triggers flashloan**
+**1. Here receiver triggers flashloan**
  ![s1](pictures/s1.png) 
 
 
-**2. Here is the flashloan funtion**
+**2. Here is the flashloan function**
   ![s2](pictures/s2.png) 
 
 
@@ -24,7 +23,11 @@ We are trying to stop the pool from offering flash loans...
   ![s4](pictures/s4.png) 
 
 
-The contracts check if that **poolBalance** equal to **balanceBefore** but we can change the value of **poolBalance** with sending DVT to **UnstoppableLender.sol** and assertetion is going to fail.
+The contracts check if that **pool Balance** equal to **balance Before** but we can change the value of **pool Balance** with sending DVT to **Unstoppable Lender.sol** and assertion is going to fail.
 
-⚠️ **Insted of use `assert(poolBalance == balanceBefore);`** 
-**They shoud use `assert(poolBalance => balanceBefore);`**  
+<br> </br>
+So the solution is put this code to **test/unstoppable/unstoppable.challenge.js** exploit function 
+![s5](pictures/s5.png)
+
+⚠️ **Instead of use  `assert(poolBalance == balanceBefore);`** 
+**They should use `assert(poolBalance => balanceBefore);`**  
