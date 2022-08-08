@@ -26,7 +26,7 @@ We are trying to stop the pool from offering flash loans...
 
 The contracts check if that **poolBalance** equal to **balanceBefore** but we can change the value of **poolBalance** with sending DVT to **UnstoppableLender.sol** and assertetion is going to fail.
 
-<br> </br>
+---
 So the solution is put this code to **test/unstoppable/unstoppable.challenge.js** exploit function 
 ![s5](pictures/s5.png)
 
