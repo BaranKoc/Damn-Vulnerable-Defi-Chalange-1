@@ -34,6 +34,6 @@ So the solution is put this code to **test/unstoppable/unstoppable.challenge.js*
 **They shoud use `assert(poolBalance => balanceBefore);`** 
 
 ## How to test it
-got to ➡️ [Damn Vulnerable Defi - Chalange #1](https://www.damnvulnerabledefi.xyz/challenges/1.html). Clone the repository as mentioned and put solution code to his place.
+got to ➡️ [Damn Vulnerable Defi - Chalange #1](https://www.damnvulnerabledefi.xyz/challenges/1.html). Clone the repository as mentioned and put [solution code](Solution.txt) to his place.
 
 Then you can just type `yarn run unstoppable`
